@@ -99,12 +99,32 @@
       max-height: 40vh;
       overflow: hidden;
     }
+    .tagline {
+      font-size: large;
+      color: grey;
+      padding-left: 20px;
+    }
+    .nav-logo {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    .summary {
+      font-size: 150%;
+      max-width: 75%;
+      padding-left: 25%;
+      padding-top: 30px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <header>
     <nav class="navbar">
-      <img class="nav-logo" src="dm-logo-128.png">
+      <div class="nav-logo">
+        <img src="dm-logo-128.png">
+        <span class="tagline">DESIGN | MANAGE | CONSTRUCT</span>
+      </div>
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="#" class="nav-link">Home</a>
@@ -131,6 +151,17 @@
   </header>
   <div class="hero">
     <img src="images/reno-main.jpg" width="100%">
+  </div>
+  <div class="summary">
+    <h1>Exceptional Quality Building</h1>
+    <p style="padding-top: 20px">
+      Whether it's renovation, extension or a brand new build,
+      the main thing to make sure of is perfection and attention 
+      to detail when choosing a builder. At DM Construct we pride
+      ourselves on delivering exceptional results every time without
+      cutting corners. Contact us for all your project needs and
+      we'll make sure to deliver something truly special.
+    </p>
   </div>
   <script src="dm-construct.js"></script>
 </body>
