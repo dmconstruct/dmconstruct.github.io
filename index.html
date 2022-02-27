@@ -118,6 +118,17 @@
       padding-top: 30px;
       text-align: center;
     }
+    .fade-in {
+      animation: fadeIn ease 1s;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
   </style>
 </head>
 <body>
@@ -152,7 +163,7 @@
     </nav>
   </header>
   <div class="home">
-    <div class="hero">
+    <div class="hero fade-in">
       <img src="images/reno-main.jpg" width="100%">
     </div>
     <div class="bodytext">
@@ -162,7 +173,7 @@
         the main thing to make sure of is perfection and attention 
         to detail when choosing a builder. At DM Construct we pride
         ourselves on delivering exceptional results every time without
-        cutting corners. Contact us for all your project needs and
+        cutting corners. <span id="homecontact" class="nav-link">Contact us</span> for all your project needs and
         we'll make sure to deliver something truly special.
       </p>
     </div>
@@ -185,6 +196,12 @@
   <div class="contact" hidden>
     <div class="bodytext">
       <h1>Contact Us</h1>
+      <br/>
+      <p>PHONE:</p>
+      <p>Call us on <a href="tel:0401949743">0401 949-743</a></p>
+      <br/>
+      <p>EMAIL:</p>
+      <p><a href="mailto:d.m.construct@outlook.com?Subject=Web Enquiry">d.m.construct@outlook.com</a></p>
     </div>>
   </div>
   <script src="dm-construct.js"></script>
