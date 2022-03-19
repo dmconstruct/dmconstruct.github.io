@@ -33,4 +33,5 @@ document.getElementById('about').addEventListener('click', () => {show(aboutDiv)
 document.getElementById('projects').addEventListener('click', () => {show(projectsDiv);});
 document.getElementById('testimonials').addEventListener('click', () => {show(testimonialsDiv);});
 document.getElementById('contact').addEventListener('click', () => {show(contactDiv);});
+document.getElementById('contact2').addEventListener('click', () => {show(contactDiv);});
 document.getElementById('homecontact').addEventListener('click', () => {show(contactDiv);});
