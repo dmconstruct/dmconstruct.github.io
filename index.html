@@ -101,15 +101,34 @@
       max-height: 40vh;
       overflow: hidden;
     }
+    .pageimage {
+      align-items: center;
+      align-self: center;
+      display: flex;
+      overflow: hidden;
+    }
     .tagline {
       font-size: large;
       color: grey;
       padding-left: 20px;
     }
+    .rooms {
+      align-items: center;
+      background-image: url(images/marble.jpg);
+      display: flex;
+      max-height: 30vh;
+      overflow: hidden;
+      margin: 20px;
+    }
     .nav-logo {
       align-items: center;
       display: flex;
       justify-content: center;
+    }
+    .text {
+      font-size: 140%;
+      min-width: 50%;
+      text-align: center;
     }
     .bodytext {
       font-size: 150%;
@@ -153,9 +172,10 @@
         </li>
         <li class="nav-item">
           <span id="contact" class="nav-link">Contact</span>
-          <br>
-          <a href="https://www.instagram.com/d.m.construct/"><img src="instagram.png"></a>
-          <a href="https://www.facebook.com/designmanageconstruct"><img src="facebook.png"></a>
+          <div style="padding-top:2px">
+            <a href="https://www.instagram.com/d.m.construct/"><img src="instagram.png"></a>
+            <a href="https://www.facebook.com/designmanageconstruct"><img src="facebook.png"></a>
+          </div>
         </li>
       </ul>
       <div class="hamburger">
@@ -167,7 +187,7 @@
   </header>
   <div class="home">
     <div class="hero fade-in">
-      <img src="images/reno-main.jpg" width="100%">
+      <img src="images/kitchen.jpg" width="100%">
     </div>
     <div class="bodytext">
       <h1>Exceptional Quality Building</h1>
@@ -179,6 +199,46 @@
         cutting corners. <span id="homecontact" class="nav-link">Contact us</span> for all your project needs and
         we'll make sure to deliver something truly special.
       </p>
+    </div>
+    <div class="rooms">
+      <div class="text">
+        <p>
+          Houses
+        </p>
+      </div>
+      <div>
+        <img class="pageimage fade-in" src="images/house.jpg" width="100%">
+      </div>
+    </div>
+    <div class="rooms">
+      <div>
+        <img class="pageimage fade-in" src="images/deck.jpg" width="100%">
+      </div>
+      <div class="text">
+        <p>
+          Outdoor living
+        </p>
+      </div>
+    </div>
+    <div class="rooms">
+      <div class="text">
+        <p>
+          Landscaping
+        </p>
+      </div>
+      <div>
+        <img class="pageimage fade-in" src="images/garden.jpg" width="100%">
+      </div>
+    </div>
+    <div class="rooms">
+      <div>
+        <img class="pageimage fade-in" src="images/bathroom.jpg" width="100%">
+      </div>
+      <div class="text">
+        <p>
+          Bathrooms
+        </p>
+      </div>
     </div>
   </div>
   <div class="about" hidden>
